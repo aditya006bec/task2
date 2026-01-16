@@ -1,0 +1,66 @@
+/* Global styles - demonstrates cascading */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Navigation list */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content area */
+main {
+    width: 80%;
+    margin: auto;
+}
+
+/* Section styling - box model clearly visible */
+section {
+    background-color: white;
+    padding: 20px;       /* inner spacing */
+    margin-bottom: 20px; /* outer spacing */
+    border: 2px solid #ccc;
+}
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Profile image */
+img {
+    border: 3px solid #333;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
